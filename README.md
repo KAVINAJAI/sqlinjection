@@ -1,3 +1,5 @@
+# NAME:T.KAVINAJAI
+# REGISTER NUMBER: 212223100020
 # sqlinjection
 Exploiting SQL Injection vulnerability
 
@@ -29,11 +31,13 @@ Change Your IP Where the <192.168.43.145> Enter Your IP Addr
 
 - Identify IP address using ifconfig in Metasploitable2
 
+<img width="724" height="405" alt="image" src="https://github.com/user-attachments/assets/7581841f-76e0-4210-aeb8-ee2cb1422a9a" />
 
 
 
 - Use the above ip address to access the apache webserver of Metasploitable2 from kali linux. In Kali Linux use the ip address in a web browser.
 
+<img width="1919" height="1079" alt="image" src="https://github.com/user-attachments/assets/24ab2f4a-e63b-4544-b01a-ada0ae3f50b4" />
 
 
 - Select Multidae from the menu listed as shown above. You will get the page as displayed below:
@@ -42,6 +46,7 @@ Change Your IP Where the <192.168.43.145> Enter Your IP Addr
 
 - Click on the menu Login/Register and register for an account
 
+<img width="1280" height="664" alt="image" src="https://github.com/user-attachments/assets/d2b8b3cf-5ed8-4158-b9b8-e092cdf338fd" />
 
 - Click on the link “Please register here”
 
@@ -52,6 +57,8 @@ Change Your IP Where the <192.168.43.145> Enter Your IP Addr
 
 - The login structure we will use in our examples is straightforward. 
 
+<img width="1920" height="996" alt="image" src="https://github.com/user-attachments/assets/0f1bdfb1-fbd7-416f-b6bc-9446d136da96" />
+
 - It contains two input fields (username and password), which are both vulnerable. The back-end content creates a query to approve the username and secret key given by the client. Here is an outline of the page rationale:
 - 
 ```
@@ -60,9 +67,11 @@ Change Your IP Where the <192.168.43.145> Enter Your IP Addr
 
 - For the username put “ganesh” or “anything” and for the password put (anything’ or ‘1’=’1) or (admin’ or ‘1’=’1) then try to log in, and you’ll be presented with an admin login page.
 
+<img width="1920" height="996" alt="image" src="https://github.com/user-attachments/assets/d11fb2ab-7688-47d2-ba3e-0b431f2f7760" />
 
 
 - Click “Login”. The logged in page will show as below:
+<img width="1920" height="996" alt="image" src="https://github.com/user-attachments/assets/baf6ac51-4a4e-49de-ae75-ff0fcd9ced9f" />
 
 
 
